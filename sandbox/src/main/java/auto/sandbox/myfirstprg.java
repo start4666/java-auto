@@ -1,3 +1,5 @@
+package auto.sandbox;
+
 public class myfirstprg {
 
   public static void main(String[] args) {

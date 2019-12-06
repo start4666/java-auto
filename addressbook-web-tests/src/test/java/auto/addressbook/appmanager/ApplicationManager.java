@@ -1,6 +1,5 @@
 package auto.addressbook.appmanager;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -41,10 +40,7 @@ public class ApplicationManager {
     return navigationHelper;
   }
 
-  public void gotoGroupPage() { navigationHelper.gotoGroupPage();  }
+  public void gotoGroupPage() { navigationHelper.gotoGroupPage(); }
 
-  public void deleteSelectedGroup() {
-    driver.findElement(By.name("delete")).click();
-  }
-
+  //public void deleteSelectedGroup() {    driver.findElement(By.name("delete")).click();  }
 }

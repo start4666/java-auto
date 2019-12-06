@@ -10,9 +10,11 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
   WebDriver driver;
+
+  private SessionHelper sessionHelper;
   private NavigationHelper navigationHelper;
   private GroupHelper groupHelper;
-  private SessionHelper sessionHelper;
+
   public Map<String, Object> vars;
   Object js;
 
@@ -24,15 +26,11 @@ public class ApplicationManager {
     groupHelper = new GroupHelper(driver);
     navigationHelper = new NavigationHelper(driver);
     sessionHelper = new SessionHelper(driver);
-    sessionHelper.login("admin");
+    sessionHelper.login("admin", "secret");
   }
 
   public void stop() {
     driver.quit();
-  }
-
-  public void deleteSelectedGroup() {
-    driver.findElement(By.name("delete")).click();
   }
 
   public GroupHelper getGroupHelper() {
@@ -43,7 +41,10 @@ public class ApplicationManager {
     return navigationHelper;
   }
 
-  public void gotoGroupPage() {
-    navigationHelper.gotoGroupPage();
+  public void gotoGroupPage() { navigationHelper.gotoGroupPage();  }
+
+  public void deleteSelectedGroup() {
+    driver.findElement(By.name("delete")).click();
   }
+
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="auto.addressbook.tests.GroupCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-10T05:29:00" hostname="LAPTOP-4CR0EI2L" time="7.198">
+  <properties/>
+  <testcase name="testGroupCreation" classname="auto.addressbook.tests.GroupCreationTest" time="7.198"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 45364
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1575955743.514][WARNING]: Timed out connecting to Chrome, retrying...
+Dec 09, 2019 10:29:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

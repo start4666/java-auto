@@ -34,7 +34,7 @@ public class ApplicationManager {
     } else if (browser.equals(BrowserType.IE)) {
       driver = new InternetExplorerDriver();
     }
-    driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
     driver.get("http://localhost/addressbook/group.php");
     js = (Object) driver;
     groupHelper = new GroupHelper(driver);

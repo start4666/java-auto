@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="auto.addressbook.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-10T20:57:49" hostname="LAPTOP-4CR0EI2L" time="10.599">
+<testsuite name="auto.addressbook.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-11T04:47:19" hostname="LAPTOP-4CR0EI2L" time="16.245">
   <properties/>
-  <testcase name="testGroupModification" classname="auto.addressbook.tests.GroupModificationTests" time="10.599"/>
+  <testcase name="testGroupModification" classname="auto.addressbook.tests.GroupModificationTests" time="16.245"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
 3.150.1.0
-Listening on port 28353
+Listening on port 13139
 Only local connections are allowed
-Dec 10, 2019 1:57:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 10, 2019 9:47:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
